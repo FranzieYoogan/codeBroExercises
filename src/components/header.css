@@ -1,0 +1,24 @@
+.ulStyle {
+
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.linkStyle {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+
+}
+
+.linkStyle:hover {
+
+    color: orange;
+
+}
