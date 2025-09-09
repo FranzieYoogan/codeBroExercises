@@ -1,0 +1,41 @@
+.emoteContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+
+.emoteItemsContainer {
+
+    cursor: pointer;
+}
+
+.emoteText {
+
+    font-weight: 900;
+    color: orange;
+    border-bottom: 2px solid transparent;
+
+}
+
+.emoteItemsContainer:hover .emoteText {
+
+    border-bottom: 2px solid orange;
+
+}
+
+.emoteActive {
+
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.emoteImage {
+
+    width: 60px;
+
+}
